@@ -14,13 +14,11 @@ export const App = () => {
   const user = useTracker(() => Meteor.user())
   return(
     <Router>
-      <div>
-        <Routes>
-          <Route path="/" element={<Index />}></Route>
-          <Route path="login" element={<Login />}></Route>
-          <Route path="registration" element={<Registration />}></Route>          
-        </Routes>
-      </div>
+      <Routes>
+        <Route path="/" element={<Index />}></Route>
+        <Route path="login" element={<Login />}></Route>
+        <Route path="registration" element={<Registration />}></Route>          
+      </Routes>
     </Router>
   )
 };
