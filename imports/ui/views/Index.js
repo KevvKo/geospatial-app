@@ -9,7 +9,7 @@ export const Index = () => {
 
     useEffect(() => {
         if(!user) navigate('../login')
-    }, []);
+    });
     return (
 
         <div>hello</div>

@@ -8,10 +8,9 @@ import {
   Route, 
   Routes
 } from "react-router-dom";
-import { useTracker } from 'meteor/react-meteor-data';
 
 export const App = () => {
-  const user = useTracker(() => Meteor.user())
+
   return(
     <Router>
       <Routes>
