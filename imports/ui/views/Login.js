@@ -24,7 +24,18 @@ export const Login = () => {
     }
     return (
         <Container sx={{ height: '100%', display: 'flex', alignItems: 'center'}}>
-            <Box component="form" onSubmit={ handleSubmit } sx={{ display: 'flex', flexDirection: 'column', width: '25ch', border: '1px solid grey', padding: '20px', margin: 'auto'}}>
+            <Box 
+                component="form" 
+                onSubmit={ handleSubmit } 
+                sx={{ display: 'flex', 
+                flexDirection: 'column', 
+                width: '25ch', 
+                border: 'solid 1px', 
+                borderColor: 'grey.500', 
+                borderRadius: '10px', 
+                padding: '20px', 
+                margin: 'auto'
+            }}>
                 <TextField label="Username" name='username' required variant="outlined" sx={{ marginBottom: '10px'}}/>
                 <TextField label="Password" name='password' required type="password" variant="outlined" sx={{marginBottom: '10px' }}/>
                 <Button type='submit'>Sign in</Button>

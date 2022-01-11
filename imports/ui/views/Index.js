@@ -21,7 +21,7 @@ export const Index = () => {
     return (
         <div>
             <AppBar position="static">
-                <Toolbar>
+                <Toolbar sx={{ height: '50px'}}>
                     <Button onClick={ handleClick } color='inherit' sx={{ marginLeft: 'auto'}}>Sign out</Button>
                 </Toolbar>
             </AppBar>
