@@ -39,7 +39,7 @@ export const Registration = () => {
                     margin: 'auto',
                     border: 'solid 1px', 
                     borderColor: 'grey.500', 
-                    borderRadius: '10px'
+                    borderRadius: '5px'
                 }}>
                 <TextField label="Username" name='username' required variant="outlined" sx={{ marginBottom: '10px'}}/>
                 <TextField label="Email" required name='email' type="email" variant="outlined" sx={{marginBottom: '10px' }}/>

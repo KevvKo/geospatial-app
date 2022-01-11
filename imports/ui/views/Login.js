@@ -32,7 +32,7 @@ export const Login = () => {
                 width: '25ch', 
                 border: 'solid 1px', 
                 borderColor: 'grey.500', 
-                borderRadius: '10px', 
+                borderRadius: '5px', 
                 padding: '20px', 
                 margin: 'auto'
             }}>
